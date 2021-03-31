@@ -11,9 +11,9 @@ bool assemble_file(char *filename);
 
 
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-    int i;
+    int i ;
     /* To break line if needed */
     bool succeeded = true;
     /* Process each file by arguments */
